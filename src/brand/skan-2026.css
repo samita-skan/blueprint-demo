@@ -1,0 +1,546 @@
+/* Skan AI brand guidelines — https://brands.together.agency/skanai/
+   Applied only when html[data-brand="skan-2026"]. Original tokens stay in index.css. */
+
+@font-face {
+  font-family: "Everett";
+  src: url("../assets/brand/fonts/TWKEverett-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Everett";
+  src: url("../assets/brand/fonts/TWKEverett-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Messina Sans";
+  src: url("../assets/brand/fonts/MessinaSans-Book.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Messina Sans";
+  src: url("../assets/brand/fonts/MessinaSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Messina Sans";
+  src: url("../assets/brand/fonts/MessinaSans-SemiBold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Messina Sans";
+  src: url("../assets/brand/fonts/MessinaSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+html[data-brand="skan-2026"] {
+  --font-sans: "Messina Sans", "Inter Tight", sans-serif;
+  --font-heading: "Everett", "TikTok Sans", sans-serif;
+  --letter-spacing: 0px;
+
+  --text-primary: #161714;
+  --text-secondary: #252622;
+  --text-tertiary: #4a4b44;
+  --text-muted: #4a4b44;
+  --text-disabled: #c3c6bb;
+  --text-inverse: #ffffff;
+  --border-subtle: #d8dad1;
+
+  --blue-50: #e5f8ff;
+  --blue-50-alt: #e5f8ff;
+  --blue-100: #97c8ff;
+  --blue-200: #6474cd;
+  --blue-300: #985fca;
+  --blue-500: #9677ff;
+  --text-accent: #9677ff;
+  --text-info: #4e287a;
+
+  --surface-page: #ffffff;
+  --surface-canvas: #f7fbf5;
+  --surface-disabled: #e7ebe5;
+  --border-default: #e7ebe5;
+
+  --now-execution: #9677ff;
+  --now-comprehension: #985fca;
+  --now-creation: #6474cd;
+  --now-decision: #97c8ff;
+  --now-communication: #4e287a;
+
+  --end-agents: #9677ff;
+  --end-rule: #6474cd;
+  --end-hybrid: #985fca;
+  --end-human: #c3c6bb;
+  --end-collapse: #161714;
+  --badge-success-fill: #e5f8ff;
+  --badge-success-stroke: #97c8ff;
+  --badge-success-text: #4e287a;
+
+  --hero-from: #9677ff;
+  --hero-to: #97c8ff;
+
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --shadow-100: none;
+  --shadow-300: 0 12px 24px rgba(22, 23, 20, 0.12);
+
+  --app-high: #97c8ff;
+  --app-mod: #6474cd;
+  --app-low: #4e287a;
+}
+
+html[data-brand="skan-2026"] body,
+html[data-brand="skan-2026"] button,
+html[data-brand="skan-2026"] input,
+html[data-brand="skan-2026"] select,
+html[data-brand="skan-2026"] textarea {
+  font-family: var(--font-sans);
+}
+
+html[data-brand="skan-2026"] h1,
+html[data-brand="skan-2026"] h2,
+html[data-brand="skan-2026"] h3,
+html[data-brand="skan-2026"] .page-title h1,
+html[data-brand="skan-2026"] .card-header__titles h2,
+html[data-brand="skan-2026"] .hero__value,
+html[data-brand="skan-2026"] .stat__value,
+html[data-brand="skan-2026"] .metric__value,
+html[data-brand="skan-2026"] .cs-kpi__value,
+html[data-brand="skan-2026"] .cs-chart__title-row h2,
+html[data-brand="skan-2026"] .pv-nav h2,
+html[data-brand="skan-2026"] .rd-detail__head h3,
+html[data-brand="skan-2026"] .rm-wave-card h2,
+html[data-brand="skan-2026"] .rm-wave-card__value,
+html[data-brand="skan-2026"] .how-panel__rowhead p:first-child,
+html[data-brand="skan-2026"] .rd-shares p,
+html[data-brand="skan-2026"] .rm-how__section-title,
+html[data-brand="skan-2026"] .rm-how__factor-value,
+html[data-brand="skan-2026"] .recommended__lead,
+html[data-brand="skan-2026"] .brand-name__text {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .page-title h1 {
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .card-header__titles h2,
+html[data-brand="skan-2026"] .rm-wave-card h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .hero__value {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .btn-filter,
+html[data-brand="skan-2026"] .btn-explore,
+html[data-brand="skan-2026"] .pv-back,
+html[data-brand="skan-2026"] .btn-more,
+html[data-brand="skan-2026"] .threshold-pop__reset,
+html[data-brand="skan-2026"] .threshold-pop__apply,
+html[data-brand="skan-2026"] .segmented__opt {
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .card,
+html[data-brand="skan-2026"] .cs-kpi,
+html[data-brand="skan-2026"] .ts-how,
+html[data-brand="skan-2026"] .how-panel,
+html[data-brand="skan-2026"] .threshold-pop,
+html[data-brand="skan-2026"] .view-by__menu {
+  box-shadow: inset 0 0 0 1px var(--border-subtle);
+}
+
+html[data-brand="skan-2026"] .nav-btn,
+html[data-brand="skan-2026"] .btn-filter,
+html[data-brand="skan-2026"] .date-range,
+html[data-brand="skan-2026"] .segmented,
+html[data-brand="skan-2026"] .segmented__opt,
+html[data-brand="skan-2026"] .rd-switch,
+html[data-brand="skan-2026"] .rd-switch__item,
+html[data-brand="skan-2026"] .btn-explore,
+html[data-brand="skan-2026"] .pv-back,
+html[data-brand="skan-2026"] .icon-btn,
+html[data-brand="skan-2026"] .view-by__control,
+html[data-brand="skan-2026"] .view-by__menu,
+html[data-brand="skan-2026"] .view-by__search,
+html[data-brand="skan-2026"] .view-by__item,
+html[data-brand="skan-2026"] .threshold-pop__input,
+html[data-brand="skan-2026"] .threshold-pop__reset,
+html[data-brand="skan-2026"] .threshold-pop__apply,
+html[data-brand="skan-2026"] .btn-more,
+html[data-brand="skan-2026"] .now-badge,
+html[data-brand="skan-2026"] .rd-pill,
+html[data-brand="skan-2026"] .now-app-pill,
+html[data-brand="skan-2026"] .ts-risk-pill,
+html[data-brand="skan-2026"] .ts-tara-badge,
+html[data-brand="skan-2026"] .rm-how__pill,
+html[data-brand="skan-2026"] .ts-meter,
+html[data-brand="skan-2026"] .ts-meter__fill,
+html[data-brand="skan-2026"] .usage-bar__seg--first,
+html[data-brand="skan-2026"] .usage-bar__seg--last,
+html[data-brand="skan-2026"] .pv-crumbs,
+html[data-brand="skan-2026"] .pv-group,
+html[data-brand="skan-2026"] .icon-btn__tip,
+html[data-brand="skan-2026"] .usage-tip,
+html[data-brand="skan-2026"] .legend-item__swatch,
+html[data-brand="skan-2026"] .cs-legend__dot,
+html[data-brand="skan-2026"] .usage-tip__dot {
+  border-radius: 0;
+}
+
+html[data-brand="skan-2026"] .logo-wrap {
+  width: 56px;
+  padding: 0 12px;
+}
+
+html[data-brand="skan-2026"] .logo-wrap img {
+  width: 32px;
+  height: 32px;
+}
+
+html[data-brand="skan-2026"] .brand-name {
+  width: auto;
+  min-width: 0;
+  padding-right: 8px;
+}
+
+html[data-brand="skan-2026"] .brand-name__text {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+
+html[data-brand="skan-2026"] .brand-name__product {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--text-tertiary);
+}
+
+html[data-brand="skan-2026"] .nav-btn--active {
+  background: #9677ff;
+  border-color: #9677ff;
+}
+
+html[data-brand="skan-2026"] .nav-btn--active img {
+  filter: brightness(0);
+}
+
+html[data-brand="skan-2026"] .hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  height: 176px;
+  min-height: 176px;
+  color: #161714;
+  background: linear-gradient(105deg, #9677ff 0%, #9677ff 52%, #97c8ff 100%);
+  box-shadow: none;
+}
+
+html[data-brand="skan-2026"] .hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: url("../assets/brand/scan-grid.svg");
+  background-size: 28px 28px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+html[data-brand="skan-2026"] .hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 1;
+  background: #161714;
+  opacity: 0.18;
+  animation: skan-scan 5.5s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes skan-scan {
+  0% {
+    top: 8%;
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.22;
+  }
+  88% {
+    opacity: 0.22;
+  }
+  100% {
+    top: 88%;
+    opacity: 0;
+  }
+}
+
+html[data-brand="skan-2026"] .hero__primary,
+html[data-brand="skan-2026"] .hero__right {
+  position: relative;
+  z-index: 2;
+}
+
+html[data-brand="skan-2026"] .hero__value,
+html[data-brand="skan-2026"] .hero__caption,
+html[data-brand="skan-2026"] .hero__observed,
+html[data-brand="skan-2026"] .stat__value,
+html[data-brand="skan-2026"] .stat__label {
+  color: #161714;
+}
+
+html[data-brand="skan-2026"] .hero__value {
+  position: relative;
+  display: inline-block;
+  padding: 10px 14px 8px;
+}
+
+html[data-brand="skan-2026"] .hero__value::before,
+html[data-brand="skan-2026"] .hero__value::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #161714;
+  pointer-events: none;
+}
+
+html[data-brand="skan-2026"] .hero__value::before {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+html[data-brand="skan-2026"] .hero__value::after {
+  right: 0;
+  bottom: 0;
+  border-left: 0;
+  border-top: 0;
+}
+
+html[data-brand="skan-2026"] .hero__caption {
+  font-weight: 400;
+  padding-left: 14px;
+}
+
+html[data-brand="skan-2026"] .now-badge--decision,
+html[data-brand="skan-2026"] .ts-badge--human,
+html[data-brand="skan-2026"] .wave-bar--1,
+html[data-brand="skan-2026"] .rm-wave--1 {
+  color: #161714;
+}
+
+html[data-brand="skan-2026"] .wave-bar--1 {
+  background: #97c8ff;
+}
+
+html[data-brand="skan-2026"] .wave-bar--2,
+html[data-brand="skan-2026"] .rm-wave--2 {
+  background: #6474cd;
+}
+
+html[data-brand="skan-2026"] .wave-bar--3,
+html[data-brand="skan-2026"] .rm-wave--3 {
+  background: #9677ff;
+}
+
+html[data-brand="skan-2026"] .pv-group,
+html[data-brand="skan-2026"] .pv-crumbs {
+  background: #e7ebe5;
+}
+
+html[data-brand="skan-2026"] .icon-btn__tip,
+html[data-brand="skan-2026"] .usage-tip {
+  background: #161714;
+}
+
+html[data-brand="skan-2026"] .recommended {
+  background: #e5f8ff;
+}
+
+html[data-brand="skan-2026"] .how-alert {
+  background: #e5f8ff;
+  box-shadow: inset 0 0 0 1px #97c8ff;
+}
+
+html[data-brand="skan-2026"] .how-alert p {
+  color: #4e287a;
+}
+
+html[data-brand="skan-2026"] .link-glyph__hover,
+html[data-brand="skan-2026"] .recommended img,
+html[data-brand="skan-2026"] img[src*="sparkle"],
+html[data-brand="skan-2026"] img[src*="verified"],
+html[data-brand="skan-2026"] img[src*="icon-add"],
+html[data-brand="skan-2026"] img[src*="icon-minus"],
+html[data-brand="skan-2026"] img[src*="icon-process"],
+html[data-brand="skan-2026"] img[src*="-blue"] {
+  filter: hue-rotate(38deg) saturate(0.88) brightness(1.16);
+}
+
+html[data-brand="skan-2026"] .nav-btn--active img {
+  filter: brightness(0);
+}
+
+html[data-brand="skan-2026"] img[src*="dot-"] {
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  padding-top: 14px;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+html[data-brand="skan-2026"] img[src*="dot-execution"] { background-color: var(--now-execution); }
+html[data-brand="skan-2026"] img[src*="dot-comprehension"] { background-color: var(--now-comprehension); }
+html[data-brand="skan-2026"] img[src*="dot-creation"] { background-color: var(--now-creation); }
+html[data-brand="skan-2026"] img[src*="dot-decision"] { background-color: var(--now-decision); }
+html[data-brand="skan-2026"] img[src*="dot-communication"] { background-color: var(--now-communication); }
+html[data-brand="skan-2026"] img[src*="dot-collapse"] { background-color: var(--end-collapse); }
+html[data-brand="skan-2026"] img[src*="dot-rule"] { background-color: var(--end-rule); }
+html[data-brand="skan-2026"] img[src*="dot-agents"] { background-color: var(--end-agents); }
+html[data-brand="skan-2026"] img[src*="dot-hybrid"] { background-color: var(--end-hybrid); }
+html[data-brand="skan-2026"] img[src*="dot-human"] { background-color: var(--end-human); }
+
+html[data-brand="skan-2026"] .btn-explore:hover,
+html[data-brand="skan-2026"] .btn-explore:focus-visible,
+html[data-brand="skan-2026"] .pv-back:hover,
+html[data-brand="skan-2026"] .pv-back:focus-visible {
+  color: #9677ff;
+}
+
+html[data-brand="skan-2026"] .rd-list__item--active {
+  box-shadow: inset 1px 0 0 #9677ff;
+}
+
+.brand-switcher {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 48px;
+  padding: 8px 16px;
+  background: #161714;
+  color: #f7fbf5;
+  z-index: 40;
+}
+
+.brand-switcher__label {
+  margin: 0;
+  font-family: "Messina Sans", "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #c3c6bb;
+  white-space: nowrap;
+}
+
+.brand-switcher__tabs {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+}
+
+.brand-switcher__tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-width: 148px;
+  padding: 6px 12px;
+  border: 0;
+  background: transparent;
+  color: #c3c6bb;
+  cursor: pointer;
+  text-align: left;
+}
+
+.brand-switcher__tab--active {
+  background: #9677ff;
+  color: #161714;
+}
+
+.brand-switcher__tab-label {
+  font-family: "Everett", "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.brand-switcher__tab-hint {
+  font-family: "Messina Sans", "IBM Plex Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.8;
+}
+
+.root-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.root-shell .app {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+}
+
+.how-panel,
+.how-panel__backdrop {
+  top: 104px;
+}
+
+.how-panel__backdrop {
+  inset: 104px 0 0;
+}
+
+@media (max-width: 767px) {
+  .brand-switcher {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px 12px;
+  }
+
+  .brand-switcher__tabs {
+    width: 100%;
+  }
+
+  .brand-switcher__tab {
+    flex: 1;
+    min-width: 0;
+  }
+}
